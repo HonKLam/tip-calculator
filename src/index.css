@@ -1,0 +1,195 @@
+body {
+    background-color: #c5e4e7;
+
+    font-family: "Space Mono";
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* best way to center the container div vertically? -> using margin only thing that worked for me*/
+    margin: 12%;
+}
+
+.container {
+    display: flex;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    padding: 35px;
+
+    width: 750px;
+
+    overflow: auto;
+    
+}
+
+.left-container {
+    width: 50%;
+    color: #637373;
+}
+
+.left-container > h1 {
+    margin: auto;
+
+    font-size: 15px;
+}
+
+
+
+
+
+.input-box {
+    background-color: #f3f8fb;
+
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+
+    width: 90%;
+}
+
+.input-box > input {
+
+    /* How do I put img on top of input? */
+
+    font-family: "Space Mono";
+    border: 0;
+
+    background-color: #f3f8fb;
+
+    margin-left: auto;
+
+    outline-color: #2ac1ae;
+
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+
+    text-align: right;
+
+    overflow: hidden;
+
+    padding-right: 5%;
+
+}
+
+.input-box > img {
+    margin: 5%;
+}
+
+#bill-h1 {
+    margin-bottom: 1%;
+}
+
+#select-h1 {
+    margin-top: 7%;
+}
+
+#people-h1 {
+    margin-bottom: 1%;
+}
+
+.button-grid {
+    margin-bottom: 7%;
+}
+
+.button-grid > button {
+    font-family: "Space Mono";
+
+    width: 100px;
+    height: 40px;
+
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+    font-size: 18px;
+    text-align: center;
+
+    background: #05484e;
+    color: #f2ffff;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+#custom-btn {
+    background-color: #f3fbfb;
+    color: #646c6e;
+    font-weight: 700;
+}
+
+
+
+.right-container {
+    background-color: #05484e;
+    color: white;
+
+    border-radius: 20px;
+
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tip-person-box {
+
+    box-sizing: border-box;
+
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    font-size: 10px;
+
+    width: 375px;
+    height: 100px;
+}
+
+.tip-person-box h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.tip-person-box h2 {
+    font-size: 10px;
+    margin: 0;
+}
+
+.money {
+    margin-left: auto;
+    font-size: 25px;
+}
+
+.reset-btn {
+    display: flex;
+    justify-content: center;
+
+    margin-top: auto;
+
+    padding-bottom: 30px;
+}
+
+#reset-btn {
+    width: 81%;
+    height: 40px;
+
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+}

@@ -2,13 +2,11 @@ body {
     background-color: #c5e4e7;
 
     font-family: "Space Mono";
+    height: 100vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* best way to center the container div vertically? -> using margin only thing that worked for me*/
-    margin: 12%;
 }
 
 .container {
@@ -49,6 +47,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;    
+    position: relative;
 
     width: 90%;
 }
@@ -62,7 +61,7 @@ body {
 
     background-color: #f3f8fb;
 
-    margin-left: auto;
+    padding-left: 40px;
 
     outline-color: #2ac1ae;
 
@@ -79,7 +78,9 @@ body {
 }
 
 .input-box > img {
-    margin: 5%;
+    left: 16px;
+    right: 16px;
+    position: absolute;
 }
 
 #bill-h1 {
@@ -151,12 +152,16 @@ body {
 
     display: flex;
     flex-direction: row;
+    /* 
+     * The positioning isn't correct yet, but this allows the tip and total amounts
+     * to break to new lines instead of getting hidden by the parent container
+     */
+    flex-wrap: wrap;
 
     align-items: center;
 
     font-size: 10px;
 
-    width: 375px;
     height: 100px;
 }
 

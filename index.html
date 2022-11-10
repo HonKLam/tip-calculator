@@ -21,7 +21,10 @@
 
 
     <div class="left-container">
-
+      <!--
+      The <h1> tags could be replaced by <label> tags to improve the HTML structure of the page
+      Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label #}
+      -->
       <h1 id="bill-h1">Bill</h1>
       <div class="input-box">
         <img src="../images/icon-dollar.svg" alt="dollar here"></img>
@@ -40,7 +43,14 @@
 
       <h1 id="people-h1">Number of People</h1>
       <div class="input-box">
+        
+        <!--Really awesome that you're already adding alt tags-->
         <img src="../images/icon-person.svg" alt="people here"></img>
+        <!--
+          I believe the value and min properties here should also be wrapped in quotation marks,
+          but one of the wonderful things is that HTML is a very forgiving programming language
+          and tries to fix small errors like this (unlike JavaScript which simply 🔥)
+        --> 
         <input id="input-people-el" type="number" value=1 min=1></type>
       </div>
   

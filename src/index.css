@@ -152,12 +152,16 @@ body {
 
     display: flex;
     flex-direction: row;
+    /* 
+     * The positioning isn't correct yet, but this allows the tip and total amounts
+     * to break to new lines instead of getting hidden by the parent container
+     */
+    flex-wrap: wrap;
 
     align-items: center;
 
     font-size: 10px;
 
-    width: 375px;
     height: 100px;
 }
 

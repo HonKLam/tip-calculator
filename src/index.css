@@ -2,13 +2,11 @@ body {
     background-color: #c5e4e7;
 
     font-family: "Space Mono";
+    height: 100vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* best way to center the container div vertically? -> using margin only thing that worked for me*/
-    margin: 12%;
 }
 
 .container {

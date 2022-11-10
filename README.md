@@ -1,5 +1,7 @@
 # Project from [Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
 
+Check it out on [Netlify](https://cool-tip-calculator.netlify.app)
+
 ## Features of Task I couldn't finish (To Do?)
 
 - Custom Percentage Button

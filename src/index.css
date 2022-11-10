@@ -111,7 +111,7 @@ body {
     font-size: 18px;
     text-align: center;
 
-    background: #05484e;
+    background-color: #05484e;
     color: #f2ffff;
 
     border: none;
@@ -120,7 +120,7 @@ body {
     cursor: pointer;
 }
 
-#custom-btn {
+#btn-custom {
     background-color: #f3fbfb;
     color: #646c6e;
     font-weight: 700;
@@ -171,6 +171,7 @@ body {
 }
 
 .money {
+    color: #27c1ab;
     margin-left: auto;
     font-size: 25px;
 }
@@ -185,6 +186,12 @@ body {
 }
 
 #reset-btn {
+    font-family: "Space Mono";
+    font-size: large;
+    font-weight: 700;
+
+    background-color: #27c1ab;
+
     width: 81%;
     height: 40px;
 
@@ -192,4 +199,10 @@ body {
     border-radius: 10px;
 
     cursor: pointer;
+}
+
+#reset-btn:disabled {
+    opacity: 0.8;
+    background-color: #27c1ab;
+
 }

@@ -25,23 +25,23 @@
       <h1 id="bill-h1">Bill</h1>
       <div class="input-box">
         <img src="../images/icon-dollar.svg" alt="dollar here"></img>
-        <input type="number" value="2340.52"></type>
+        <input id="input-money-el" type="number" value=1 min=1></type>
       </div>
       
       <h1 id="select-h1">Select Tip %</h1>
       <div class="button-grid">
-        <button>5%</button>
-        <button>10%</button>
-        <button>15%</button>
-        <button>25%</button>
-        <button>50%</button>
-        <button id="custom-btn">Custom</button>
+        <button id="btn-5">5%</button>
+        <button id="btn-10">10%</button>
+        <button id="btn-15">15%</button>
+        <button id="btn-25">25%</button>
+        <button id="btn-50">50%</button>
+        <button id="btn-custom">Custom</button>
       </div>
 
       <h1 id="people-h1">Number of People</h1>
       <div class="input-box">
         <img src="../images/icon-person.svg" alt="people here"></img>
-        <input type="number" value="5"></type>
+        <input id="input-people-el" type="number" value=1 min=1></type>
       </div>
   
     </div>
@@ -55,7 +55,7 @@
           <h2>/ person</h2>
         </div>
         <div class="money">
-          <h3>$434.34</h3>
+          <h3 id="perperson-el">$0.00</h3>
         </div>
       </div>
     
@@ -64,12 +64,12 @@
           <h1>Total</h1>
         </div>
         <div class="money">
-          <h3>$434.34</h3>
+          <h3 id="total-el">$0.00</h3>
         </div>
       </div>
     
       <div class="reset-btn">
-        <button id="reset-btn">RESET</button>
+        <button id="reset-btn" disabled>RESET</button>
       </div>
   
     </div>
@@ -77,5 +77,6 @@
 
   </div>
 
+<script src="index.js"></script>
 </body>
 </html>
